@@ -3,7 +3,6 @@
 ## Author
 **Elif Semiha Konakoğlu**
 
----
 
 ## Tech Stack
 - Python
@@ -13,7 +12,6 @@
 - matplotlib
 - seaborn
 
----
 
 ## Notes
 This project is created for educational and portfolio purposes.  
