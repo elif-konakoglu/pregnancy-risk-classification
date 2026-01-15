@@ -1,5 +1,22 @@
 # Pregnancy Risk Classification (Machine Learning)
 
+## Tech Stack
+- Python
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+## Author
+**Elif Semiha Konakoğlu**
+
+## Notes
+This project is created for educational and portfolio purposes.  
+It is not intended for medical diagnosis or clinical use.
+
+---
+
 This project predicts **pregnancy risk level** using a clinical dataset and several supervised machine learning classification models.  
 It includes data preprocessing, feature scaling, model training, and performance evaluation.
 
@@ -11,24 +28,21 @@ To classify pregnancy cases into risk categories using clinical measurements and
 ---
 
 ## Dataset
-- Clinical dataset used for pregnancy risk prediction
+- Clinical dataset used for pregnancy risk prediction  
 - Target column: `risiko_cat`
-  
-### Getting the Dataset
+
+### Getting the Dataset (Google Colab)
 To run the notebook in Google Colab:
-1. Download/keep the dataset ZIP file on your computer
-2. In Colab, upload the ZIP file using the file upload cell
+1. Keep the dataset ZIP file on your computer
+2. Upload the ZIP file to Colab using the upload cell
 3. Run all cells (the notebook extracts the ZIP and loads the CSV automatically)
 
-
 Features include:
-- Age
-- Blood pressure values (systolic / diastolic)
-- Hemoglobin (hb)
-- Medical conditions (e.g., diabetes, hypertension)
-- Other clinical indicators
-
-> Dataset was provided as a ZIP file and extracted in Google Colab.
+- Age  
+- Blood pressure values (systolic / diastolic)  
+- Hemoglobin (hb)  
+- Medical conditions (e.g., diabetes, hypertension)  
+- Other clinical indicators  
 
 ---
 
@@ -45,12 +59,12 @@ The following models were trained and compared:
 
 ## Evaluation Metrics
 Model performance was evaluated using:
-- Accuracy
-- Precision (Macro)
-- Recall (Macro)
-- F1-score (Macro)
-- Confusion Matrix
-- Classification Report
+- Accuracy  
+- Precision (Macro)  
+- Recall (Macro)  
+- F1-score (Macro)  
+- Confusion Matrix  
+- Classification Report  
 
 ---
 
@@ -63,7 +77,7 @@ Model performance was evaluated using:
 | Random Forest | ~0.90 | ~0.71 |
 | **Gradient Boosting (Best)** | **~0.91** | **~0.74** |
 
- **Best model:** Gradient Boosting
+**Best model:** Gradient Boosting
 
 ---
 
@@ -83,13 +97,12 @@ Model performance was evaluated using:
 ### Google Colab (Recommended)
 1. Open the notebook in Google Colab  
 2. Upload the dataset ZIP file  
-3. Run all cells
+3. Run all cells  
 
-
-### Option 2: Run Locally
-1. Clone the repository
-2. Install dependencies
-3. Run the notebook
+### Run Locally (Optional)
+1. Clone the repository  
+2. Install dependencies  
+3. Run the notebook  
 
 ```bash
 pip install -r requirements.txt
