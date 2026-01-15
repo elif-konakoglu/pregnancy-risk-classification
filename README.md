@@ -1,5 +1,10 @@
 # Pregnancy Risk Classification (Machine Learning)
 
+## Author
+**Elif Semiha Konakoğlu**
+
+---
+
 ## Tech Stack
 - Python
 - pandas
@@ -8,8 +13,7 @@
 - matplotlib
 - seaborn
 
-## Author
-**Elif Semiha Konakoğlu**
+---
 
 ## Notes
 This project is created for educational and portfolio purposes.  
