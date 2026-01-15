@@ -1,5 +1,7 @@
 # Pregnancy Risk Classification (Machine Learning)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Po0irOphp29-586b5LbNvxUI4VT4HIOW?usp=sharing)
+
 ## Author
 **Elif Semiha Konakoğlu**
 
