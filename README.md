@@ -14,8 +14,7 @@
 
 
 ## Notes
-This project is created for educational and portfolio purposes.  
-It is not intended for medical diagnosis or clinical use.
+This project is created for educational and portfolio purposes. It is not intended for medical diagnosis or clinical use.
 
 ---
 
